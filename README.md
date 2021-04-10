@@ -1,1 +1,8 @@
 # LOC-Search-Tool
+Part 3
+1- ONE person is going to create the structure of the HTML and define IDs for the search input, the dropdown input, the click me button input, and the container for the search results. (Don't have to work on any styles yet, just HTML structure). After finishing, add, commit, push and pull request.
+2- ONE person is going to work on the format of the search results. Basically create a sample of one search result with all the components (title, text, Read more button), Don't have to work on any styles yet, just HTML structure. After finishing, add, commit, push and pull request.
+3- ONE person will create a function getRequestURL(search,format), this function will return a string, which will be the API URL to be fetched for those values. After finishing, add, commit, pull , push and pull request.
+4- ONE person, will create a function displayResult(title,text,link), this function will create an instance of a result, and add it to the results container in the HTML. After finishing, add, commit, pull , push and pull request.
+5- ONE person will create a function displayResults(results) this function will clear the results container, loop through the results list, and call the displayResult function at each step.  After finishing, add, commit, pull , push and pull request.
+6- ONE person will create a function fetchResults, this function will get the values from the search and format inputs, will create the URL using the getRequestURL function, will fetch the results, and then execute the displayResults function passing the results retrieved.  After finishing, add, commit, pull , push and pull request.
